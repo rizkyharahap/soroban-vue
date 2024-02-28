@@ -11,5 +11,5 @@ fn hello() {
     assert_eq!(
         words,
         vec![&env, symbol_short!("Hello"), symbol_short!("Dev"),]
-    )
+    );
 }
