@@ -10,6 +10,6 @@ fn hello() {
     let words = client.hello(&symbol_short!("Dev"));
     assert_eq!(
         words,
-        vec![&env, symbol_short!("Hello"), symbol_short!("Dev")]
+        vec![&env, symbol_short!("Hello"), symbol_short!("Dev"),]
     )
 }
